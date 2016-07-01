@@ -1,0 +1,26 @@
+.tours{
+	max-height: 450px;
+	overflow: scroll;
+}
+
+#map{
+	background-color: silver;
+}
+
+.picSize{
+	margin: 0 15px 40px 15px;
+	height: 100px;
+	width: 100px;
+}
+
+.float_right{
+	float: right;
+}
+
+.footer_section{
+	font-size: 12px;
+}
+
+.footer{
+	margin-top: 40px;
+}
