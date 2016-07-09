@@ -39,7 +39,7 @@ p {
   }
 }
 a {
-  color: #42DCA3;
+/*  color: #42DCA3;*/
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -218,7 +218,7 @@ a:focus {
   }
 }
 .content-section1 {
-  padding-top: 150px;
+  padding-top: 100px;
 }
 .content-section {
   padding-top: 50px;
@@ -227,7 +227,7 @@ a:focus {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+  background: url(../img/continentalboston.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -236,13 +236,15 @@ a:focus {
 }
 #map {
   width: 100%;
-  height: 200px;
+  height: auto;
   margin-top: 100px;
+  background: url(../img/continental3.jpg) no-repeat scroll;
+  background-size: cover;
 }
 /*Changed this from padding top 250 to 0*/
 @media (min-width: 767px) {
 .content-section1 {
-  padding-top: 150px;
+  padding-top: 100px;
 }
 .content-section {
   padding-top: 50px;
@@ -251,7 +253,7 @@ a:focus {
     padding: 100px 0;
   }
   #map {
-    height: 400px;
+    height: 800px;
     margin-top: 250px;
   }
 }

@@ -1,6 +1,13 @@
+.entersite:hover{
+	cursor: pointer;
+  	color: rgba(255, 255, 255, 0.8);
+}
+
+
 .tours{
 	max-height: 450px;
 	overflow: scroll;
+	background-color: rgba(0, 0, 0, .2);
 }
 
 #map{
@@ -22,5 +29,23 @@
 }
 
 .footer{
+		text-align: center;
 	margin-top: 40px;
+}
+
+.videoplayer{
+	margin-top: 50px;
+}
+
+.contactInfo{
+	margin-top: 100px;
+}
+
+.socialLink{
+	color: white;
+}
+
+.socialLink:hover{
+	cursor: pointer;
+  	color: rgba(255, 255, 255, 0.8);
 }
