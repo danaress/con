@@ -1,9 +1,17 @@
+.entersite{
+	color: white;
+	margin-bottom: 0px;
+}
 .entersite:hover{
 	cursor: pointer;
-  	color: rgba(255, 255, 255, 0.8);
+  	color: #979797;
 }
 
-
+.socialbtn{
+	height: 100px;
+	width: auto;
+	margin: 100px 20px 0px 20px;
+}
 .tours{
 	max-height: 450px;
 	overflow: scroll;
