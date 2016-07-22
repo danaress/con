@@ -7,6 +7,23 @@
   	color: #979797;
 }
 
+.albumcover{
+	width: 75%;
+}
+
+.buybutton{
+	border-radius: 5px;
+	height: 75px;
+	width: 150px;
+	margin-top: 25px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.buybutton:hover{
+	cursor: pointer;
+}
+
 .socialbtn{
 	height: 100px;
 	width: auto;
