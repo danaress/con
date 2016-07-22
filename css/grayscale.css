@@ -228,7 +228,6 @@ a:focus {
   padding: 50px 0;
   color: white;
   background: url(../img/continentalboston.jpg) no-repeat center center scroll;
-  background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -238,7 +237,8 @@ a:focus {
   width: 100%;
   height: auto;
   margin-top: 100px;
-  background: url(../img/continental3.jpg) no-repeat scroll;
+  background-color: black;
+/*  background: url(../img/continental3.jpg) no-repeat scroll;*/
   background-size: cover;
 }
 /*Changed this from padding top 250 to 0*/
@@ -254,7 +254,7 @@ a:focus {
   }
   #map {
     height: 800px;
-    margin-top: 250px;
+    margin-top: 50px;
   }
 }
 .btn {
