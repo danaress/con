@@ -106,12 +106,37 @@
 	}
 }
 
+@media (max-width: 900px){
+	.rustyknuckles{
+	position: absolute;
+	right: 21%;
+	top: 53%;
+	width: 15%;
+	}
+}
+
 @media (max-width: 790px){
+	.rustyknuckles{
+	position: absolute;
+	right: 18%;
+	top: 60%;
+	width: 15%;
+	}
+}
+
+/*@media (max-width: 790px){
 	.rustyknuckles{
 	position: absolute;
 	right: 21%;
 	top: 55%;
 	width: 15%;
+	}
+}*/
+
+
+@media (max-width: 790px){
+	.albumcover{
+		width: 95%;
 	}
 }
 
@@ -120,23 +145,6 @@
 		width: 90%;
 	}
 }
-
-
-/*@media (max-width: 700px){
-	.rustyknuckles{
-	position: absolute;
-	right: 21%;
-	top: 50%;
-	width: 15%;
-	}
-}*/
-
-/*@media (max-width: 500px){
-	.rustyknuckles{
-		visibility: hidden;
-	}
-}*/
-
 
 
 
