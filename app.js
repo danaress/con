@@ -6,17 +6,16 @@ var app = express();
 app.use(express.static(__dirname + '/'));
 
 app.get('/',function(req,res){
-	console.log("jhbhbkjhb")
-res.sendfile('index.html');
-});
-
-
-app.get('/home',function(req,res){
 res.sendfile('landing.html');
 });
 
 
-var port = 80
+app.get('/home',function(req,res){
+res.sendfile('index2.html');
+});
+
+
+var port = 3000
 app.listen(port, function(){
 	console.log("running")
 

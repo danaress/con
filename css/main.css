@@ -7,6 +7,13 @@
   	color: #979797;
 }
 
+.rustyknuckles{
+	position: absolute;
+	right: 21%;
+	top: 60%;
+	width: 15%;
+}
+
 .albumcover{
 	width: 75%;
 }
@@ -66,11 +73,75 @@
 	margin-top: 100px;
 }
 
-.socialLink{
-	color: white;
+@media (max-width: 1190px){
+	.morespace{
+		margin-top: 25px;
+	}
 }
 
-.socialLink:hover{
-	cursor: pointer;
-  	color: rgba(255, 255, 255, 0.8);
+@media (max-width: 1350px){
+	.socialbtn{
+	height: 75px;
+	width: auto;
+	margin: 100px 15px 0px 15px;
+	}
 }
+
+
+@media (max-width: 1030px){
+	.socialbtn{
+	height: 50px;
+	width: auto;
+	margin: 50px 10px 0px 10px;
+	}
+}
+
+@media (max-width: 725px){
+	.socialbtn{
+	height: 50px;
+	width: auto;
+	margin: 30px 25px 0px 25px;
+	}
+}
+
+@media (max-width: 790px){
+	.rustyknuckles{
+	position: absolute;
+	right: 21%;
+	top: 55%;
+	width: 15%;
+	}
+}
+
+@media (max-width: 700px){
+	.rustyknuckles{
+	position: absolute;
+	right: 21%;
+	top: 50%;
+	width: 15%;
+	}
+}
+
+@media (max-width: 600px){
+	.rustyknuckles{
+		visibility: hidden;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
