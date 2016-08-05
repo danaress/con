@@ -64,7 +64,9 @@
 		text-align: center;
 	margin-top: 40px;
 }
-
+.videoplayer2{
+	width: 500px;
+}
 .videoplayer{
 	margin-top: 50px;
 }
@@ -113,20 +115,28 @@
 	}
 }
 
-@media (max-width: 700px){
+@media (max-width: 550px){
+	.videoplayer2{
+		width: 90%;
+	}
+}
+
+
+/*@media (max-width: 700px){
 	.rustyknuckles{
 	position: absolute;
 	right: 21%;
 	top: 50%;
 	width: 15%;
 	}
-}
+}*/
 
-@media (max-width: 600px){
+/*@media (max-width: 500px){
 	.rustyknuckles{
 		visibility: hidden;
 	}
-}
+}*/
+
 
 
 
