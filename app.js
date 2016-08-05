@@ -15,7 +15,7 @@ res.sendfile('index2.html');
 });
 
 
-var port = 3000
+var port = 80
 app.listen(port, function(){
 	console.log("running")
 
