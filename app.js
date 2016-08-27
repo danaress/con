@@ -17,6 +17,5 @@ res.sendfile('index2.html');
 
 var port = 80
 app.listen(port, function(){
-	console.log("running")
 
 })
