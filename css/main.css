@@ -1,3 +1,8 @@
+
+body {
+  overflow-x:hidden;
+margin-left: 0px;
+}
 .entersite{
 	color: white;
 	margin-bottom: 0px;
@@ -66,9 +71,15 @@
 }
 .videoplayer2{
 	width: 500px;
+	height: 400px;
 }
 .videoplayer{
 	margin-top: 50px;
+}
+
+.info{
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 200;
 }
 
 .contactInfo{
@@ -192,12 +203,17 @@
 }
 
 @media (max-width: 550px){
-	.videoplayer2{
-		width: 90%;
+	.shrinkAudio{
+		width: auto;
 	}
 }
 
-
+@media (max-width: 550px){
+	.shrinkVideo{
+		width: auto;
+		height: auto;
+	}
+}
 
 
 
